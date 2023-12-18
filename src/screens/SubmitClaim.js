@@ -29,6 +29,8 @@ const Claims = () => {
     setClaim("");
     setAmount("");
     setValue(null);
+    setAddmissionDate('');
+    setDischargeDate('');
   }
   const submit = () => {
     setpopupVisible(true);
